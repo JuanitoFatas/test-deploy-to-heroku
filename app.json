@@ -1,0 +1,21 @@
+{
+  "name": "Test app",
+  "description": "an apple a day keeps the doctor away",
+  "repository": "https://github.com/juanitofatas/test-deploy-to-heroku",
+  "logo": "http://juanitofatas.com/images/scribble.png",
+  "keywords": ["rails", "heroku"],
+  "env": {
+    "WWW_HOSTNAME": {
+      "description": "Your Heroku App url without scheme (**app-name.herokuapp.com**)",
+      "required": true
+    },
+    "GITHUB_CLIENT_ID": {
+      "description": "OAuth application's unique Client ID: https://developer.github.com/v3/oauth",
+      "required": true
+    },
+    "GITHUB_CLIENT_SECRET": {
+      "description": "OAuth application's unique Client Secret: https://developer.github.com/v3/oauth",
+      "required": false
+    }
+  }
+}
