@@ -16,10 +16,10 @@
     "GITHUB_CLIENT_SECRET": {
       "description": "OAuth application's unique Client Secret: https://developer.github.com/v3/oauth",
       "required": false
-    },
-    "image": "heroku/ruby",
-    "addons": [
-      "rediscloud:30"
-    ]
-  }
+    }
+  },
+  "image": "heroku/ruby",
+  "addons": [
+    "rediscloud:30"
+  ]
 }
